@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.2)  2 FEB 2026 14:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.2)  2 FEB 2026 14:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Sarah's stoof/uni/y2s2/RA/report/images/main"
-(c:/Sarah's stoof/uni/y2s2/RA/report/images/main.tex
+**"c:/Sarah's stoof/uni/y2s2/RA/cy2001-picture-hanging-puzzles/main"
+(c:/Sarah's stoof/uni/y2s2/RA/cy2001-picture-hanging-puzzles/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-10>
 (c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -505,10 +505,10 @@ Package biblatex Info: ... file 'main.bbl' not found.
 No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 25.
 Package biblatex Info: Reference segment=0 on input line 25.
-<NTU_Logo.png, id=1, 3017.2725pt x 1083.04625pt>
-File: NTU_Logo.png Graphic file (type png)
-<use NTU_Logo.png>
-Package pdftex.def Info: NTU_Logo.png  used on input line 27.
+<images/NTU_Logo.png, id=1, 3017.2725pt x 1083.04625pt>
+File: images/NTU_Logo.png Graphic file (type png)
+<use images/NTU_Logo.png>
+Package pdftex.def Info: images/NTU_Logo.png  used on input line 27.
 (pdftex.def)             Requested size: 430.00462pt x 154.3357pt.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <20> not available
@@ -557,7 +557,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
 
 [1
 
-{c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./NTU_Logo.png>]
+{c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/NTU_Logo.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
 (Font)              size <17.28> substituted on input line 59.
@@ -618,14 +618,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -720,18 +712,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11710 strings out of 469470
- 214678 string characters out of 5466840
+ 11712 strings out of 469470
+ 214814 string characters out of 5466840
  1012809 words of memory out of 5000000
- 40290 multiletter control sequences out of 15000+600000
+ 40292 multiletter control sequences out of 15000+600000
  633392 words of font info for 61 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 63i,11n,66p,734b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,66p,751b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (17 pages, 321744 bytes).
+Output written on main.pdf (16 pages, 321449 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

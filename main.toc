@@ -3,7 +3,6 @@
 \contentsline {section}{List of Figures}{iv}{}%
 \contentsline {section}{List of Tables}{v}{}%
 \contentsline {section}{List of Appendix Figures}{vi}{}%
-\contentsline {section}{Nomenclature}{vii}{}%
 \contentsline {section}{\numberline {1}Introduction}{1}{}%
 \contentsline {subsection}{\numberline {1.1}Motivation for Research}{1}{}%
 \contentsline {subsection}{\numberline {1.2}Objectives}{1}{}%
