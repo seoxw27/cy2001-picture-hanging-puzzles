@@ -11,6 +11,7 @@
 \usepackage{xcolor}
 \usepackage[titles]{tocloft}  % Allows customization of ToC layout
 \usepackage{etoolbox}
+\usepackage{caption}
 \setlength{\headheight}{14.5pt}
 
 \usepackage[style=ieee,sorting=ynt]{biblatex}
@@ -133,7 +134,25 @@ This research was motivated by the 4AUs it carries (not worth it)
 Ordinarily, when hanging a picture frame, one would simply hang the frame by a singular nail on the wall. 
 Obviously, removing that one nail would cause the pciture and its frame to fall. 
 
-But what if we were to hang the picture by two nails? Hanging the picture in the simplest way 
+But what if we were to hang the picture by two nails? Hanging the picture in the simplest way \ref{fig:two_normal}.
+
+\begin{figure}[htbp]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[scale=0.4]{two_normal}
+    \caption{A normal hanging}
+    \label{fig:two-normal}
+  \end{subfigure}\hfill
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[scale=0.4]{two_solution}
+    \caption{Solution to the two-nail puzzle}
+    \label{fig:two-solution}
+  \end{subfigure}
+  \caption{Two ways to hang a picture by looping around two nails.}
+  \label{fig:two-hangings}
+\end{figure}
 
 \subsubsection{Connection to (Free) Group Theory}
 
