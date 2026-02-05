@@ -2,20 +2,16 @@
 
 \usepackage{graphicx} % Required for inserting images
 \graphicspath{{images/}} %Direct to "images" folder
-\usepackage{conveniences}
-\usepackage{geometry}
-\usepackage{ragged2e}
-\usepackage{amssymb}
-\usepackage{titlesec}
-\usepackage{fancyhdr}
-\usepackage{xcolor}
+\usepackage{conveniences, geometry, ragged2e, amssymb, titlesec, fancyhdr, xcolor, etoolbox, float}
 \usepackage[titles]{tocloft}  % Allows customization of ToC layout
-\usepackage{etoolbox}
-\usepackage{caption}
+\usepackage[nottoc]{tocbibind}
+
 \setlength{\headheight}{14.5pt}
 
-\usepackage[style=ieee,sorting=ynt]{biblatex}
+\usepackage[style=ieee, sorting=ynt]{biblatex}
 \addbibresource{references.bib}
+
+\usepackage[hidelinks]{hyperref}
 
 \titleformat{\section}
     {\centering\fontS{18}\bfseries} %Centered, Font 18, Bold
@@ -93,8 +89,7 @@ Thank you to my mother for birthing me and for cutting fruit for me to snack on.
 \tableofcontents
 
 \pagebreak
-\section*{List of Figures}
-\markboth{List of Figures}{} 
+\listoffigures
 \addcontentsline{toc}{section}{List of Figures}
 
 \pagebreak
@@ -132,26 +127,16 @@ This research was motivated by the 4AUs it carries (not worth it)
 \subsection{Picture-Hanging Puzzles} %obviously change these
 
 Ordinarily, when hanging a picture frame, one would simply hang the frame by a singular nail on the wall. 
-Obviously, removing that one nail would cause the pciture and its frame to fall. 
+Obviously, removing that one nail would cause the picture and its frame to fall. 
 
-But what if we were to hang the picture by two nails? Hanging the picture in the simplest way \ref{fig:two_normal}.
+But what if we were to hang the picture by two nails? Hanging the picture in the simplest way, as illustrated in Figure \ref{fig: two_normal}, removing either nail would not cause the picture frame to fall.
+Instead, the picture frame would still hang from the remaining nail.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
   \centering
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[scale=0.4]{two_normal}
-    \caption{A normal hanging}
-    \label{fig:two-normal}
-  \end{subfigure}\hfill
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[scale=0.4]{two_solution}
-    \caption{Solution to the two-nail puzzle}
-    \label{fig:two-solution}
-  \end{subfigure}
-  \caption{Two ways to hang a picture by looping around two nails.}
-  \label{fig:two-hangings}
+  \includegraphics[width = 0.45\textwidth]{two_normal.png}
+  \caption{A normal way to hang a picture on two nails. Adapted from \cite{Demaine_2013}}
+  \label{fig: two_normal}
 \end{figure}
 
 \subsubsection{Connection to (Free) Group Theory}
@@ -192,11 +177,13 @@ In the attempt to solve an open problem, we will put forward various approaches 
 \subsection{Recommendations for Future Work}
 
 \pagebreak
-\section*{List of References}
 \pagenumbering{arabic}
 \renewcommand{\thepage}{R-\arabic{page}}
-\markboth{List of References}{} 
-\addcontentsline{toc}{section}{List of References}
+
+\printbibliography[
+  title={References}
+]
+\addcontentsline{toc}{section}{References}
 
 \pagebreak
 \section*{Appendix A - Heading}
