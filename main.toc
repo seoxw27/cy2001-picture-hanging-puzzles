@@ -1,9 +1,9 @@
 \contentsline {section}{Abstract}{i}{Doc-Start}%
 \contentsline {section}{Acknowledgements}{ii}{Doc-Start}%
-\contentsline {section}{List of Figures}{v}{Doc-Start}%
-\contentsline {section}{List of Figures}{v}{Doc-Start}%
-\contentsline {section}{List of Tables}{vi}{Doc-Start}%
-\contentsline {section}{List of Appendix Figures}{vii}{Doc-Start}%
+\contentsline {section}{List of Figures}{iv}{Doc-Start}%
+\contentsline {section}{List of Figures}{iv}{Doc-Start}%
+\contentsline {section}{List of Tables}{v}{Doc-Start}%
+\contentsline {section}{List of Appendix Figures}{vi}{Doc-Start}%
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Motivation for Research}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Objectives}{1}{subsection.1.2}%
