@@ -78,6 +78,41 @@
       \verb http://www.mathematik.uni-bielefeld.de/~sillke/PUZZLES/quantum/B201
       \endverb
     \endentry
+    \entry{PictureHanging}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a340f89fd7f4d65325d0c5092cecaf24}{%
+           family={{Ed Pegg Jr.}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a340f89fd7f4d65325d0c5092cecaf24}
+      \strng{fullhash}{a340f89fd7f4d65325d0c5092cecaf24}
+      \strng{fullhashraw}{a340f89fd7f4d65325d0c5092cecaf24}
+      \strng{bibnamehash}{a340f89fd7f4d65325d0c5092cecaf24}
+      \strng{authorbibnamehash}{a340f89fd7f4d65325d0c5092cecaf24}
+      \strng{authornamehash}{a340f89fd7f4d65325d0c5092cecaf24}
+      \strng{authorfullhash}{a340f89fd7f4d65325d0c5092cecaf24}
+      \strng{authorfullhashraw}{a340f89fd7f4d65325d0c5092cecaf24}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Picture Hanging}
+      \field{urlday}{20}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\sarah\Zotero\storage\BRDZJFXK\hangingpicture.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mathpuzzle.com/hangingpicture.htm
+      \endverb
+      \verb{url}
+      \verb https://www.mathpuzzle.com/hangingpicture.htm
+      \endverb
+    \endentry
     \entry{Demaine_2013}{article}{}{}
       \name{author}{6}{}{%
         {{hash=30a06bf5f3263989d79d20f48ddf828c}{%

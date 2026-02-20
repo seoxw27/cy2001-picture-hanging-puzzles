@@ -158,7 +158,45 @@ The most notable of which - for this paper in particular - being that of Ed Pegg
 First, we will discusss the formalisation using Free Group Theory.
 
 \subsubsection{Connection to (Free) Group Theory}
-This section describes a general framework to study the wrapping of the puzzle. 
+This section describes a general framework to study the wrapping of the puzzle as described by Demaine et al. \cite{Demaine_2013} and Ed Pegg Jr. \cite{PictureHanging}. 
+We abstract a wrapping of a rope around $n$ nails as a free group on $n$ generators. 
+Particularly, we define $2n$ symbols:
+
+\begin{center}
+  $x_1, x_1^{-1},x_2, x_2^{-1}, ... , x_n, x_n^{-1}$.
+\end{center}
+
+Every $x_i$ symbol represents a wrapping around the $i$th nail; $x_i$ for a clockwise wrapping, and $x_1^{-1}$ for an anti-clockwise one.
+This paper will denote the leftmost nail as $x_1$ and the rightmost nail as $x_n$.
+Now our wrappings can be represented by some sequence of these $2n$ symbols. 
+
+As an example, the wrapping in Figure \ref{fig: two_solution} can be expressed as $x_1 x_2 x_1^{-1} x_2^{-1}$. 
+This is further illustrated by Figure \ref{fig: two_notation}: first we wrap around $x_1$ clockwise, then around $x_2$ clockwise, then anti-clockwise around $x_1^{-1}$, and finally anti-clockwise around $x_2^{-1}$.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width = 0.45\textwidth]{two_notation_clean.jpg}
+  \caption{Understanding the notation for Figure \ref{fig: two_solution}. Adapted from \cite{Demaine_2013}}
+  \label{fig: two_notation}
+\end{figure}
+
+When removing a nail, for example the $k$th nail, we remove all instances of $x_k$ and $x_k^{-1}$ in a given sequence.
+With this representation, it is clear to see why this wrapping is a solution to the 2 nail puzzle. 
+For example, removing the leftmost nail ($x_1$) leaves just $x_2 x_2^{-1}$ and removing the rightmost ($x_2$) nail leaves just $x_1 x_1^{-1}$.
+The remaining sequence is equivalent to wrapping clockwise then immediately unwrapping the rope with an anti-clockwise turn.
+In general, $x_i$ and $x_i^{-1}$ cancel out, thus any instances of $x_i x_i^{-1}$ and $x_i^{-1} x_i$ can be dropped
+(The free group specifies that these cancellations are all the simplifications that can be made).
+
+Thus, the original weaving $x_1 x_2 x_1^{-1} x_2^{-1}$ is non-trivially linked with both nails since nothing simplifies;
+but removing either nail simplifies the sequence resulting in a trivial wrapping where nothing is linked (i.e. the picture falls).
+
+In group theory, the expression $x_1 x_2 x_1^{-1} x_2^{-1}$ is called the commutator of $x_1$ and $x_2$ and is written [$x_1, x_2$].
+
+As defined in \cite{Demaine_2013}, generally, a picture hanging on $n$ nails to be a sequence of symbols or $word$ in the free group on n generators.
+We refer to the $length$ of the word is the number of symbols in the word, this would also approximate the required length of rope to complete the wrapping that corresponds to the given word.
+We also define a special identity work (element) 1 that represents the picture falling.
+Removing the $i$th nail removes all instances of $x_i$ and $x_i^{-1}$ from the given word.
+Through simplification after said removal, we can determine if the picture falls.
 
 \subsubsection{Connection to Borromean and Brunnian Links}
 \label{link formalisation}
