@@ -124,47 +124,45 @@ This research was motivated by the 4AUs it carries (not worth it)
 \pagebreak
 \section{Literature Review}
 
-\subsection{Picture-Hanging Puzzles} %obviously change these
-
 Ordinarily, when hanging a picture frame, one would simply hang the frame by a singular nail on the wall. 
 Obviously, removing that one nail would cause the picture and its frame to fall. 
 
 What if we were to hang the picture by two nails? Hanging the picture in the simplest way, as illustrated in Figure \ref{fig: two_normal}, and removing either nail would not cause the picture frame to fall.
 Instead, the picture frame would still hang from the remaining nail.
 
-\begin{figure}[H]
+\begin{figure} %[h]
   \centering
   \includegraphics[width = 0.45\textwidth]{two_normal.png}
-  \caption{A normal way to hang a picture on two nails. Adapted from \cite{Demaine_2013}}
+  \caption{A normal way to hang a picture on two nails. Adapted from \cite{Demaine_2013}.}
   \label{fig: two_normal}
 \end{figure}
 
 If we want to the picture frame to hang on both nails, but fall on the removal of either nail, how would we do so? 
 This is the puzzle that was first set forth by A. Spivak in 1997 \cite{Spivak1997StrangePainting}. 
-One such solution to the puzzle is shown below (Figure \ref{fig: two_solution}).
+One such solution to the puzzle is as shown in Figure \ref{fig: two_solution}.
 
-\begin{figure}[H]
+\begin{figure}
   \centering
   \includegraphics[width = 0.45\textwidth]{two_solution.png}
-  \caption{A solution to the two-nail puzzle. Adapted from \cite{Demaine_2013}}
+  \caption{A solution to the two-nail puzzle. Adapted from \cite{Demaine_2013}.}
   \label{fig: two_solution}
 \end{figure}
 
 The puzzle has continued to circulate around the puzzle community, including a spot on Youtuber Tom Scott's channel in collaboration with Jade Tan-Holmes (Up and Atom) \cite{jadetan-holmesupandatomHowKnotHang2019}.
 As the puzzle circulates, others have noted certain connections between the solution to the puzzle and other mathematical concepts.
 
-The most notable of which - for this paper in particular - being that of Ed Pegg Jr. who mentioned a connection between the solution and Borromean Rings and Brunnian Links, a formalisation that will be discussed further in Section \ref{link formalisation} \cite{Sillke2001StrangePainting}.
+The most notable of which - for this paper at least - being that of Ed Pegg Jr. who mentioned a connection between the solution and Borromean Rings and Brunnian Links, a formalisation that will be discussed further in Section \ref{link formalisation} \cite{Sillke2001StrangePainting}.
 
 First, we will discusss the formalisation using Free Group Theory.
 
-\subsubsection{Connection to (Free) Group Theory}
+\subsection{Connection to (Free) Group Theory}
 This section describes a general framework to study the wrapping of the puzzle as described by Demaine et al. \cite{Demaine_2013} and Ed Pegg Jr. \cite{PictureHanging}. 
 We abstract a wrapping of a rope around $n$ nails as a free group on $n$ generators. 
 Particularly, we define $2n$ symbols:
 
-\begin{center}
-  $x_1, x_1^{-1},x_2, x_2^{-1}, ... , x_n, x_n^{-1}$.
-\end{center}
+\[
+x_1, x_1^{-1},x_2, x_2^{-1}, \dots , x_n, x_n^{-1}.
+\]
 
 Every $x_i$ symbol represents a wrapping around the $i$th nail; $x_i$ for a clockwise wrapping, and $x_1^{-1}$ for an anti-clockwise one.
 This paper will denote the leftmost nail as $x_1$ and the rightmost nail as $x_n$.
@@ -173,10 +171,10 @@ Now our wrappings can be represented by some sequence of these $2n$ symbols.
 As an example, the wrapping in Figure \ref{fig: two_solution} can be expressed as $x_1 x_2 x_1^{-1} x_2^{-1}$. 
 This is further illustrated by Figure \ref{fig: two_notation}: first we wrap around $x_1$ clockwise, then around $x_2$ clockwise, then anti-clockwise around $x_1^{-1}$, and finally anti-clockwise around $x_2^{-1}$.
 
-\begin{figure}[H]
+\begin{figure}
   \centering
   \includegraphics[width = 0.45\textwidth]{two_notation_clean.jpg}
-  \caption{Understanding the notation for Figure \ref{fig: two_solution}. Adapted from \cite{Demaine_2013}}
+  \caption{Understanding the notation for Figure \ref{fig: two_solution}. Adapted from \cite{Demaine_2013}.}
   \label{fig: two_notation}
 \end{figure}
 
@@ -198,7 +196,7 @@ We also define a special identity work (element) 1 that represents the picture f
 Removing the $i$th nail removes all instances of $x_i$ and $x_i^{-1}$ from the given word.
 Through simplification after said removal, we can determine if the picture falls.
 
-\subsubsection{Connection to Borromean and Brunnian Links}
+\subsection{Connection to Borromean and Brunnian Links}
 \label{link formalisation}
 
 \subsection{Research Gaps}
