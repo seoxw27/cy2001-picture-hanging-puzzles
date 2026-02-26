@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.4)  21 FEB 2026 10:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.4)  26 FEB 2026 09:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,28 +685,34 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
 \openout6 = `main.lof'.
 
  [5] [6] [7]
+<images/knotted_rope.png, id=200, 1563.8425pt x 514.92375pt>
+File: images/knotted_rope.png Graphic file (type png)
+<use images/knotted_rope.png>
+Package pdftex.def Info: images/knotted_rope.png  used on input line 133.
+(pdftex.def)             Requested size: 430.00462pt x 141.58482pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 \section
-              {Literature Review} [1]
-<images/two_normal.png, id=195, 409.53pt x 356.33125pt>
+l.148 \section
+              {Literature Review} \label{section: lit review} [1]
+<images/two_normal.png, id=211, 409.53pt x 356.33125pt>
 File: images/two_normal.png Graphic file (type png)
 <use images/two_normal.png>
-Package pdftex.def Info: images/two_normal.png  used on input line 135.
+Package pdftex.def Info: images/two_normal.png  used on input line 158.
 (pdftex.def)             Requested size: 193.50076pt x 168.3674pt.
-<images/two_solution.png, id=199, 462.72874pt x 343.2825pt>
+<images/two_solution.png, id=215, 462.72874pt x 343.2825pt>
 File: images/two_solution.png Graphic file (type png)
 <use images/two_solution.png>
-Package pdftex.def Info: images/two_solution.png  used on input line 146.
+Package pdftex.def Info: images/two_solution.png  used on input line 169.
 (pdftex.def)             Requested size: 193.50076pt x 143.54909pt.
- [2 <./images/two_normal.png (PNG copy)>]
-<images/two_notation_clean.jpg, id=215, 439.8834pt x 336.2964pt>
+ [2 <./images/knotted_rope.png>] [3 <./images/two_normal.png (PNG copy)> <./images/two_solution.png (PNG copy)>]
+<images/two_notation_clean.jpg, id=236, 439.8834pt x 336.2964pt>
 File: images/two_notation_clean.jpg Graphic file (type jpg)
 <use images/two_notation_clean.jpg>
-Package pdftex.def Info: images/two_notation_clean.jpg  used on input line 176.
+Package pdftex.def Info: images/two_notation_clean.jpg  used on input line 199.
 (pdftex.def)             Requested size: 193.50076pt x 147.93495pt.
- [3 <./images/two_solution.png (PNG copy)>] [4 <./images/two_notation_clean.jpg>] [5] [6] [7] [8] [1] [1] [1] (./main.aux)
+ [4 <./images/two_notation_clean.jpg>] [5] [6] [7] [8] [9] [1] [1] [1] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -723,18 +729,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18599 strings out of 469471
- 325351 string characters out of 5466859
- 1166068 words of memory out of 5000000
- 47015 multiletter control sequences out of 15000+600000
+ 18620 strings out of 469471
+ 326051 string characters out of 5466859
+ 1166395 words of memory out of 5000000
+ 47032 multiletter control sequences out of 15000+600000
  638209 words of font info for 80 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  63i,12n,67p,761b,1331s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/Users/sarah/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (19 pages, 699168 bytes).
+Output written on main.pdf (20 pages, 1299954 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -113,16 +113,39 @@ Thank you to my mother for birthing me and for cutting fruit for me to snack on.
 
 \subsection{Motivation for Research}
 
-This research was motivated by the 4AUs it carries (not worth it)
+The picture-hanging puzzle asks an absurd question: how can a picture frame fall when a nail is removed despite hanging from many?
+The details and constraints of the puzzle will be described further in Section \ref{section: lit review}.
+
+As absurd as the question may seem, there is an application for it in the Secret Sharing Scheme \cite{huPictureHangingPuzzles}.
+Secret Sharing in cryptography is a method for distributing a secret among a group such that no individual holds enough information to recreate the whole secret, but when a sufficient number of people share their 'secrets', they are able to recreate the whole secret \cite{cryptoeprint:2025/518}.
+
+Similarly, in k-out-of-n picture-hanging puzzles, the picture is expected to fall only after some requisite number of nails is pulled. 
+Thus we can draw parallels between secret sharing and recreation and picture hanging and the fall condition.
+
+It should be noted, however, the primary focus of this paper is on 1-out-of-n puzzles, which would be the trivial secret sharing and thus "insecure" in the real world. 
 
 \subsection{Objectives}
+In this paper, we attempt to find a generalisation for the 1-out-of-n puzzle when the rope is allowed to wrap around itself. 
+The construction of the wrapping is based on that proposed by Michael Paterson, featured in Demaine et al. on page 16 (Figure \ref{fig: knotted})\cite{Demaine_2013}.
+
+\begin{figure} 
+  \centering
+  \includegraphics[width = \textwidth]{knotted_rope.png}
+  \caption{Construction where rope wraps around itself as proposed by Michael Paterson. Adapted from \cite{Demaine_2013}.}
+  \label{fig: knotted}
+\end{figure}
 
 \subsection{Scope of Work}
+This paper proposes a general result for the 1-out-of-n puzzle and proposes a potential proof for the given proposition.
+The proof will be based on the puzzle's connection to Borromean and Brunnian Links.
+
+Research will focus on the construction by Michael Paterson (Figure \ref{fig: knotted}) only. Other constructions where the rope wraps around itself is beyond the scope of this project.
 
 \subsection{Organisation of Report}
 
+
 \pagebreak
-\section{Literature Review}
+\section{Literature Review} \label{section: lit review}
 
 Ordinarily, when hanging a picture frame, one would simply hang the frame by a singular nail on the wall. 
 Obviously, removing that one nail would cause the picture and its frame to fall. 
@@ -130,7 +153,7 @@ Obviously, removing that one nail would cause the picture and its frame to fall.
 What if we were to hang the picture by two nails? Hanging the picture in the simplest way, as illustrated in Figure \ref{fig: two_normal}, and removing either nail would not cause the picture frame to fall.
 Instead, the picture frame would still hang from the remaining nail.
 
-\begin{figure} %[h]
+\begin{figure} 
   \centering
   \includegraphics[width = 0.45\textwidth]{two_normal.png}
   \caption{A normal way to hang a picture on two nails. Adapted from \cite{Demaine_2013}.}

@@ -217,6 +217,63 @@
       \verb https://youtu.be/-eVd2Ugk9BU?si=rC9jkem8syheqB1c
       \endverb
     \endentry
+    \entry{cryptoeprint:2025/518}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=47254bf664575cd15357f7189868090b}{%
+           family={Beimel},
+           familyi={B\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{47254bf664575cd15357f7189868090b}
+      \strng{fullhash}{47254bf664575cd15357f7189868090b}
+      \strng{fullhashraw}{47254bf664575cd15357f7189868090b}
+      \strng{bibnamehash}{47254bf664575cd15357f7189868090b}
+      \strng{authorbibnamehash}{47254bf664575cd15357f7189868090b}
+      \strng{authornamehash}{47254bf664575cd15357f7189868090b}
+      \strng{authorfullhash}{47254bf664575cd15357f7189868090b}
+      \strng{authorfullhashraw}{47254bf664575cd15357f7189868090b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Cryptology {ePrint} Archive, Paper 2025/518}
+      \field{title}{Secret-Sharing Schemes for General Access Structures: An Introduction}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://eprint.iacr.org/2025/518
+      \endverb
+      \verb{url}
+      \verb https://eprint.iacr.org/2025/518
+      \endverb
+    \endentry
+    \entry{huPictureHangingPuzzles}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c63f238ef007b1fa0c6f5d7d04752971}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Ruiyang},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c63f238ef007b1fa0c6f5d7d04752971}
+      \strng{fullhash}{c63f238ef007b1fa0c6f5d7d04752971}
+      \strng{fullhashraw}{c63f238ef007b1fa0c6f5d7d04752971}
+      \strng{bibnamehash}{c63f238ef007b1fa0c6f5d7d04752971}
+      \strng{authorbibnamehash}{c63f238ef007b1fa0c6f5d7d04752971}
+      \strng{authornamehash}{c63f238ef007b1fa0c6f5d7d04752971}
+      \strng{authorfullhash}{c63f238ef007b1fa0c6f5d7d04752971}
+      \strng{authorfullhashraw}{c63f238ef007b1fa0c6f5d7d04752971}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Introduce picture hanging puzzles, how its solutions are related to free group with n generators, fundamental group of the topological space induced on a plane with n holes, Brunnian links. Then, we will explain how such puzzle can be turned into a secret sharing scheme.}
+      \field{langid}{english}
+      \field{title}{Picture {{Hanging Puzzles}} and {{Secret Sharing Scheme}}}
+      \verb{file}
+      \verb C:\Users\sarah\Zotero\storage\L724Y7PI\Hu - Picture Hanging Puzzles and Secret Sharing Scheme.pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
