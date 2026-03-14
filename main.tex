@@ -109,43 +109,7 @@ Thank you to my mother for birthing me and for cutting fruit for me to snack on.
 
 \pagebreak
 \pagenumbering{arabic}
-\section{Introduction}
-
-\subsection{Motivation for Research}
-
-The picture-hanging puzzle asks an absurd question: how can a picture frame fall when a nail is removed despite hanging from many?
-The details and constraints of the puzzle will be described further in Section \ref{section: lit review}.
-
-As absurd as the question may seem, there is an application for it in the Secret Sharing Scheme \cite{huPictureHangingPuzzles}.
-Secret Sharing in cryptography is a method for distributing a secret among a group such that no individual holds enough information to recreate the whole secret, but when a sufficient number of people share their 'secrets', they are able to recreate the whole secret \cite{cryptoeprint:2025/518}.
-
-Similarly, in k-out-of-n picture-hanging puzzles, the picture is expected to fall only after some requisite number of nails is pulled. 
-Thus we can draw parallels between secret sharing and recreation and picture hanging and the fall condition.
-
-It should be noted, however, the primary focus of this paper is on 1-out-of-n puzzles, which would be the trivial secret sharing and thus "insecure" in the real world. 
-
-\subsection{Objectives}
-In this paper, we attempt to find a generalisation for the 1-out-of-n puzzle when the rope is allowed to wrap around itself. 
-The construction of the wrapping is based on that proposed by Michael Paterson, featured in Demaine et al. on page 16 (Figure \ref{fig: knotted})\cite{Demaine_2013}.
-
-\begin{figure} 
-  \centering
-  \includegraphics[width = \textwidth]{knotted_rope.png}
-  \caption{Construction where rope wraps around itself as proposed by Michael Paterson. Adapted from \cite{Demaine_2013}.}
-  \label{fig: knotted}
-\end{figure}
-
-\subsection{Scope of Work}
-This paper proposes a general result for the 1-out-of-n puzzle and proposes a potential proof for the given proposition.
-The proof will be based on the puzzle's connection to Borromean and Brunnian Links.
-
-Research will focus on the construction by Michael Paterson (Figure \ref{fig: knotted}) only. Other constructions where the rope wraps around itself is beyond the scope of this project.
-
-\subsection{Organisation of Report}
-
-
-\pagebreak
-\section{Literature Review} \label{section: lit review}
+\section{Introduction}\label{chapter 1}
 
 Ordinarily, when hanging a picture frame, one would simply hang the frame by a singular nail on the wall. 
 Obviously, removing that one nail would cause the picture and its frame to fall. 
@@ -172,9 +136,60 @@ One such solution to the puzzle is as shown in Figure \ref{fig: two_solution}.
 \end{figure}
 
 The puzzle has continued to circulate around the puzzle community, including a spot on Youtuber Tom Scott's channel in collaboration with Jade Tan-Holmes (Up and Atom) \cite{jadetan-holmesupandatomHowKnotHang2019}.
+
+\subsection{Motivation for Research}
+
+The picture-hanging puzzle asks an absurd question: how can a picture frame fall when a nail is removed despite hanging from many?
+The details and constraints of the puzzle will be further described in Chapter \ref{chapter 2}.
+
+As absurd as the question may seem, there is an application for it in the Secret Sharing Scheme \cite{huPictureHangingPuzzles}.
+Secret Sharing in cryptography is a method for distributing a secret among a group such that no individual holds enough information to recreate the whole secret, but when a sufficient number of people share their 'secrets', they are able to recreate the whole secret \cite{cryptoeprint:2025/518}.
+
+Similarly, in k-out-of-n picture-hanging puzzles, the picture is expected to fall only after some requisite number of nails is pulled. 
+Thus we can draw parallels between secret sharing and recreation and picture hanging and the fall condition.
+
+It should be noted, however, the primary focus of this paper is on 1-out-of-n puzzles, which would be the trivial secret sharing and thus "insecure" in the real world. 
+
+\subsection{Objectives}
+In this paper, we attempt to find a generalisation for the 1-out-of-n puzzle when the rope is allowed to wrap around itself. 
+The construction of the wrapping is based on that proposed by Michael Paterson, featured in Demaine et al. (Figure \ref{fig: knotted})\cite{Demaine_2013}.
+
+\begin{figure} 
+  \centering
+  \includegraphics[width = \textwidth]{knotted_rope.png}
+  \caption{Construction where rope wraps around itself as proposed by Michael Paterson. Adapted from \cite{Demaine_2013}.}
+  \label{fig: knotted}
+\end{figure}
+
+\subsection{Scope of Work}
+This paper proposes a general result for the 1-out-of-n puzzle and proposes a potential proof for the given proposition.
+The proof will be based on the puzzle's connection to Borromean and Brunnian Links.
+
+Research will focus on the construction by Michael Paterson (Figure \ref{fig: knotted}) only. Other constructions where the rope wraps around itself is beyond the scope of this project.
+
+\subsection{Organisation of Report}
+
+This report is organised as follows:
+
+In Chapter \ref{chapter 1}, we have an introduction to the project and picture-hanging puzzles.
+
+Chapter \ref{chapter 2} summarises the findings from the literature review, including the puzzle's connection to group theory and knot theory.
+
+Chapter \ref{chapter 3} explains the research methodology used to conduct this research.
+
+Chapter \ref{chapter 4} presents the experimental model set up for this research.
+
+Chapter \ref{chapter 5} explains the results of this research, including the aforementioned proposition.
+
+Chapter \ref{chapter 6} concludes the findings of this research and recommends areas and topics for future research.
+
+\pagebreak
+\section{Literature Review} \label{chapter 2}
+Since it's appearance in Quantum, the puzzle has continued to circulate among puzzle enthusiasts and mathematicians alike.
 As the puzzle circulates, others have noted certain connections between the solution to the puzzle and other mathematical concepts.
 
-The most notable of which - for this paper at least - being that of Ed Pegg Jr. who mentioned a connection between the solution and Borromean Rings and Brunnian Links, a formalisation that will be discussed further in Section \ref{link formalisation} \cite{Sillke2001StrangePainting}.
+The most notable of which - for this paper at least - being that of Ed Pegg Jr. who mentioned a connection between the solution and Borromean Rings and Brunnian Links, 
+a formalisation that will be discussed further in \ref{link formalisation} \cite{Sillke2001StrangePainting}.
 
 First, we will discusss the formalisation using Free Group Theory.
 
@@ -225,7 +240,7 @@ Through simplification after said removal, we can determine if the picture falls
 \subsection{Research Gaps}
 
 \pagebreak
-\section{Research Methodology}
+\section{Research Methodology} \label{chapter 3}
 As is the case with pure mathematical research, the research is conducted analytically. 
 
 Firstly, an extensive literature review on the topic of picture-hanging puzzles is conducted to gain pre-requisite knowledge in the field of interest. This review also serves to build an understanding of particularly interesting or impactful open problems that are deserving of greater attention. Having obtained deeper intimacy with the topic, we then apply the theorems and results obtained within the papers reviewed to develop further theories in the field of picture-hanging puzzles that, for example, allow the spectator the most efficient algorithm to remove the fewest nails to fell the picture. We also draw upon the ideas used in proofs to guide our own thoughts. 
@@ -239,17 +254,17 @@ In the attempt to solve an open problem, we will put forward various approaches 
 \subsection{Scope of Investigation}
 
 \pagebreak
-\section{Model Setup}
+\section{Model Setup}\label{chapter 4}
 
 \subsection{Heading}
 
 \pagebreak
-\section{Results}
+\section{Results}\label{chapter 5}
 
 \subsection{Overview of Results}
 
 \pagebreak
-\section{Conclusions and Recommendations}
+\section{Conclusions and Recommendations}\label{chapter 6}
 
 \subsection{Conclusions}
 
