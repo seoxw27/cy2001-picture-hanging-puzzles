@@ -1,5 +1,11 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces A normal way to hang a picture on two nails. Adapted from \blx@tocontentsinit {0}\cite {Demaine_2013}.}}{1}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces A solution to the two-nail puzzle. Adapted from \blx@tocontentsinit {0}\cite {Demaine_2013}.}}{2}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Construction where rope wraps around itself as proposed by Michael Paterson. Adapted from \blx@tocontentsinit {0}\cite {Demaine_2013}.}}{3}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Understanding the notation for Figure \ref {fig: two_solution}. Adapted from \blx@tocontentsinit {0}\cite {Demaine_2013}.}}{5}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces The Borromean Rings}}{6}{figure.5}%
+\contentsline {figure}{\numberline {1}{\ignorespaces A normal way to hang a picture on two nails. Adapted from \blx@tocontentsinit {0}\cite {Demaine_2013}.}}{1}{figure.caption.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces A solution to the two-nail puzzle. Adapted from \blx@tocontentsinit {0}\cite {Demaine_2013}.}}{2}{figure.caption.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Construction where rope wraps around itself as proposed by Michael Paterson. Adapted from \blx@tocontentsinit {0}\cite {Demaine_2013}.}}{3}{figure.caption.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Understanding the notation for Figure \ref {fig: two_solution}. Adapted from \blx@tocontentsinit {0}\cite {Demaine_2013}.}}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces The Borromean Rings.}}{6}{figure.caption.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Initial Construction for n = 2}}{8}{figure.caption.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Initial Construction for n = 2 with the part of the rope to be moved for the transformation highlighted in yellow.}}{9}{figure.caption.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Transformed Construction for n = 2 with the new position for the yellow part of the rope indicated.}}{9}{figure.caption.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Initial Construction for n = 3.}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Initial Construction for n $\in \mathbb {Z}$.}}{10}{figure.caption.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Transformed Construction for n = 3.}}{10}{figure.caption.11}%
