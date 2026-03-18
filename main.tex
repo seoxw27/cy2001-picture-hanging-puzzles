@@ -2,7 +2,7 @@
 
 \usepackage{graphicx} % Required for inserting images
 \graphicspath{{images/}} %Direct to "images" folder
-\usepackage{conveniences, geometry, ragged2e, amssymb, titlesec, fancyhdr, xcolor, etoolbox, float}
+\usepackage{conveniences, geometry, ragged2e, amssymb, titlesec, fancyhdr, xcolor, etoolbox, float, subcaption}
 \usepackage[titles]{tocloft}  % Allows customization of ToC layout
 \usepackage[nottoc]{tocbibind}
 \usepackage[justification=centering]{caption}
@@ -190,7 +190,7 @@ Since it's appearance in Quantum, the puzzle has continued to circulate among pu
 As the puzzle circulates, others have noted certain connections between the solution to the puzzle and other mathematical concepts.
 
 The most notable of which - for this paper at least - being that of Ed Pegg Jr. who mentioned a connection between the solution and Borromean Rings and Brunnian Links, 
-a formalisation that will be discussed further in \ref{link formalisation} \cite{Sillke2001StrangePainting}.
+a formalisation that will be discussed further in \ref{brunnian} \cite{Sillke2001StrangePainting}.
 
 First, we will discusss the formalisation using Free Group Theory.
 
@@ -236,7 +236,19 @@ Removing the $i$th nail removes all instances of $x_i$ and $x_i^{-1}$ from the g
 Through simplification after said removal, we can determine if the picture falls.
 
 \subsection{Connection to Borromean and Brunnian Links}
-\label{link formalisation}
+\label{brunnian}
+
+Werner Schw{\"a}rzler observed that the solution to the two nail puzzle could be generalised to the Borromean rings.
+Hence, puzzles with more than two nails could be generalised further to more generalised forms of the Borromean rings.
+This section describes these connections.
+
+The Borromean Rings (\ref{fig: borromean rings}) consists of three loops (rings) that by itself is inseparable - also known as non-trivially linked - but removing any one ring cause the other two to be separable \cite{Sillke2001StrangePainting}.
+These rings get its namesake from the Italian noble family Borromeo who used the rings as its crest.
+
+Like the rings, in the picture-haning puzzle, the three loops are linked, but removing any one of them unlinks all of them.
+As described by Demaine et al., by stretching two of the loops to infinity and straigthening it out, we may view the loops as nails \cite{Demaine_2013}.
+Alternatively, taking each nail and extending it out of the nail head and looping back into the plane the puzzle is nailed to, we may view the nails as loops.
+Either way, we may convert the two-nail puzzle to the Borromean rings and vice versa.
 
 \begin{figure}
   \centering
@@ -244,6 +256,42 @@ Through simplification after said removal, we can determine if the picture falls
   \caption{The Borromean Rings.}
   \label{fig: borromean rings}
 \end{figure}
+
+While there are two generalisations of the Borromean Rings, for this problem we will focus on the generalisation to Brunnian Links
+
+A Brunnian link is a collection of $n$ loops that are linked such that the removal of any one loop unlinks the rest.
+This is the property we want for the generalisation of our $n$-nail puzzle. 
+The transformation for Brunnian $4$ link to a 1-out-of-3 puzzle is shown in Figure \ref{fig: Brunnian}
+
+\begin{figure}
+  \centering
+
+  \begin{subfigure}{0.4\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{brunnian_4a}
+    \caption{Brunnian $4$-link.}
+  \end{subfigure}
+  \begin{subfigure}{0.25\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{brunnian_4b}
+    \caption{Stretching all but one loop into lines.}
+  \end{subfigure}
+
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{brunnian_4c}
+    \caption{Picture-hanging equivalent from over-under pattern of (b).}
+  \end{subfigure} \hfill
+
+  \caption{Transforming a Brunnian $n$-link into a $1$-out-of-$n$
+    picture-hanging puzzle, for $n=4$. Adapted from \cite{Demaine_2013}}
+  \label{fig: Brunnian}
+\end{figure}
+
+It should be noted, that this construction of the Brunnian Link fails for k-out-of-n puzzles ($k \in \mathbb{Z}$).
+However, this paper only focuses on 1-out-of-n puzzles. 
+Thus, the Brunnian link formalisation is adequate for this our construction where the rope wraps around itself.
+
 
 \subsection{Research Gaps}
 Current research gaps primarily surround optimality of typical constructions were the rope does not wrap around itself.
@@ -270,21 +318,21 @@ In the attempt to solve an open problem, we will put forward various approaches 
 \begin{figure}
   \centering
   \includegraphics[width = 0.45\textwidth]{2_original.pdf}
-  \caption{Initial Construction for n = 2}
+  \caption{Initial Construction for $n = 2$}
   \label{fig: 2_original}
 \end{figure}
 
 \begin{figure}
   \centering
   \includegraphics[width = 0.45\textwidth]{2_indicate.pdf}
-  \caption{Initial Construction for n = 2 with the part of the rope to be moved for the transformation highlighted in yellow.}
+  \caption{Initial Construction for $n = 2$ with the part of the rope to be moved for the transformation highlighted in yellow.}
   \label{fig: 2_indicate}
 \end{figure}
 
 \begin{figure}
   \centering
   \includegraphics[width = 0.45\textwidth]{2_transformed_indicative.pdf}
-  \caption{Transformed Construction for n = 2 with the new position for the yellow part of the rope indicated.}
+  \caption{Transformed Construction for $n = 2$ with the new position for the yellow part of the rope indicated.}
   \label{fig: 2_transformed}
 \end{figure}
 
@@ -295,14 +343,14 @@ In the attempt to solve an open problem, we will put forward various approaches 
 \begin{figure}
   \centering
   \includegraphics[width = 0.4\textwidth]{3_hangings.pdf}
-  \caption{Initial Construction for n = 3.}
+  \caption{Initial Construction for $n = 3$.}
   \label{fig: 3_original}
 \end{figure}
 
 \begin{figure}
   \centering
   \includegraphics[width = 0.4\textwidth]{n_original.pdf}
-  \caption{Initial Construction for n $\in \mathbb{Z}$.}
+  \caption{Initial Construction for $n \in \mathbb{Z}$.}
   \label{fig: n_original}
 \end{figure}
 
@@ -313,8 +361,15 @@ In the attempt to solve an open problem, we will put forward various approaches 
 \begin{figure}
   \centering
   \includegraphics[width = 0.4\textwidth]{3_transformed.pdf}
-  \caption{Transformed Construction for n = 3.}
+  \caption{Transformed Construction for $n = 3$.}
   \label{fig: 3_transformed}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width = 0.4\textwidth]{n_transformed.pdf}
+  \caption{Transformed Construction for $n \in \mathbb{Z}$.}
+  \label{fig: n_transformed}
 \end{figure}
 
 \pagebreak
