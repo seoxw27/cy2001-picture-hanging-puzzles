@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.12)  19 MAR 2026 21:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.12)  19 MAR 2026 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -665,13 +665,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 48.
 Package biblatex Info: Reference segment=0 on input line 48.
 Package hyperref Info: Link coloring OFF on input line 48.
-(./main.out) (./main.out)
+ (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -761,17 +760,7 @@ Overfull \hbox (3.40903pt too wide) detected at line 33
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [4] (./main.lof
-Overfull \hbox (19.1482pt too wide) in paragraph at lines 1--1
- [][] [][]\OT1/cmr/m/n/12 A nor-mal way to hang a pic-ture on two nails. Adapted from [].[] []  
- []
-
-
-Overfull \hbox (0.70663pt too wide) in paragraph at lines 4--4
- [][] [][]\OT1/cmr/m/n/12 Understanding the no-ta-tion for Fig-ure []2[]. Adapted from [].[] []  
- []
-
-)
+ [4] (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -788,162 +777,91 @@ Overfull \hbox (0.70663pt too wide) in paragraph at lines 4--4
 \openout7 = `main.apf'.
 
  [7]
-<images/two_normal.png, id=240, 409.53pt x 356.33125pt>
+<images/two_normal.png, id=262, 409.53pt x 356.33125pt>
 File: images/two_normal.png Graphic file (type png)
 <use images/two_normal.png>
 Package pdftex.def Info: images/two_normal.png  used on input line 154.
 (pdftex.def)             Requested size: 193.50076pt x 168.3674pt.
-
-
-LaTeX Warning: Citation 'Demaine_2013' on page 1 undefined on input line 155.
-
-
-LaTeX Warning: Citation 'Demaine_2013' on page 1 undefined on input line 155.
-
-
-LaTeX Warning: Citation 'Spivak1997StrangePainting' on page 1 undefined on input line 160.
-
-<images/two_solution.png, id=242, 462.72874pt x 343.2825pt>
+<images/two_solution.png, id=267, 462.72874pt x 343.2825pt>
 File: images/two_solution.png Graphic file (type png)
 <use images/two_solution.png>
 Package pdftex.def Info: images/two_solution.png  used on input line 165.
 (pdftex.def)             Requested size: 193.50076pt x 143.54909pt.
 
-LaTeX Warning: Citation 'Demaine_2013' on page 1 undefined on input line 166.
-
-
-LaTeX Warning: Citation 'Demaine_2013' on page 1 undefined on input line 166.
-
-
-LaTeX Warning: Citation 'jadetan-holmesupandatomHowKnotHang2019' on page 1 undefined on input line 170.
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.177 A
-       s absurd as the question may seem, there is an application for it in ... [1 <./images/two_normal.png (PNG copy)>]
-
-LaTeX Warning: Citation 'huPictureHangingPuzzles' on page 2 undefined on input line 177.
-
-
-LaTeX Warning: Citation 'cryptoeprint:2025/518' on page 2 undefined on input line 178.
-
-
-LaTeX Warning: Citation 'Demaine_2013' on page 2 undefined on input line 187.
-
-<images/knotted_rope.png, id=248, 1563.8425pt x 514.92375pt>
+l.179 
+       [1 <./images/two_normal.png (PNG copy)>]
+<images/knotted_rope.png, id=281, 1563.8425pt x 514.92375pt>
 File: images/knotted_rope.png Graphic file (type png)
 <use images/knotted_rope.png>
 Package pdftex.def Info: images/knotted_rope.png  used on input line 191.
 (pdftex.def)             Requested size: 430.00462pt x 141.58482pt.
-
-LaTeX Warning: Citation 'Demaine_2013' on page 2 undefined on input line 192.
-
-
-LaTeX Warning: Citation 'Demaine_2013' on page 2 undefined on input line 192.
-
-[2 <./images/two_solution.png (PNG copy)>] [3 <./images/knotted_rope.png>]
-
-LaTeX Warning: Citation 'Sillke2001StrangePainting' on page 4 undefined on input line 224.
-
-
-Overfull \hbox (16.61595pt too wide) in paragraph at lines 223--225
-\OT1/cmr/m/n/12 Links, a for-mal-i-sa-tion that will be dis-cussed fur-ther in []2.2[] []. 
- []
-
-
-LaTeX Warning: Citation 'Demaine_2013' on page 4 undefined on input line 229.
-
-
-LaTeX Warning: Citation 'PictureHanging' on page 4 undefined on input line 229.
-
-<images/two_notation_clean.jpg, id=269, 439.8834pt x 336.2964pt>
+ [2 <./images/two_solution.png (PNG copy)>] [3 <./images/knotted_rope.png>]
+<images/two_notation_clean.jpg, id=309, 439.8834pt x 336.2964pt>
 File: images/two_notation_clean.jpg Graphic file (type jpg)
 <use images/two_notation_clean.jpg>
 Package pdftex.def Info: images/two_notation_clean.jpg  used on input line 246.
 (pdftex.def)             Requested size: 193.50076pt x 147.93495pt.
-
-LaTeX Warning: Citation 'Demaine_2013' on page 4 undefined on input line 247.
-
-
-LaTeX Warning: Citation 'Demaine_2013' on page 4 undefined on input line 247.
-
-[4]
-
-LaTeX Warning: Citation 'Demaine_2013' on page 5 undefined on input line 263.
-
-
-LaTeX Warning: Citation 'Sillke2001StrangePainting' on page 5 undefined on input line 276.
-
-
-LaTeX Warning: Citation 'Demaine_2013' on page 5 undefined on input line 280.
-
-[5 <./images/two_notation_clean.jpg>]
-<images/rings.pdf, id=285, 222.56099pt x 207.75545pt>
+ [4] [5 <./images/two_notation_clean.jpg>]
+<images/rings.pdf, id=333, 222.56099pt x 207.75545pt>
 File: images/rings.pdf Graphic file (type pdf)
 <use images/rings.pdf>
 Package pdftex.def Info: images/rings.pdf  used on input line 286.
 (pdftex.def)             Requested size: 193.50076pt x 180.63799pt.
-<images/brunnian_4a.png, id=287, 601.24625pt x 545.03625pt>
+<images/brunnian_4a.png, id=335, 601.24625pt x 545.03625pt>
 File: images/brunnian_4a.png Graphic file (type png)
 <use images/brunnian_4a.png>
 Package pdftex.def Info: images/brunnian_4a.png  used on input line 301.
 (pdftex.def)             Requested size: 171.99922pt x 155.9191pt.
-<images/brunnian_4b.png, id=288, 325.215pt x 543.02875pt>
+<images/brunnian_4b.png, id=336, 325.215pt x 543.02875pt>
 File: images/brunnian_4b.png Graphic file (type png)
 <use images/brunnian_4b.png>
 Package pdftex.def Info: images/brunnian_4b.png  used on input line 306.
 (pdftex.def)             Requested size: 107.50114pt x 179.49832pt.
-<images/brunnian_4c.png, id=289, 864.22874pt x 625.33624pt>
+<images/brunnian_4c.png, id=337, 864.22874pt x 625.33624pt>
 File: images/brunnian_4c.png Graphic file (type png)
 <use images/brunnian_4c.png>
 Package pdftex.def Info: images/brunnian_4c.png  used on input line 312.
 (pdftex.def)             Requested size: 258.00539pt x 186.6863pt.
-
-
-LaTeX Warning: Citation 'Demaine_2013' on page 6 undefined on input line 317.
-
-
-LaTeX Warning: Citation 'Demaine_2013' on page 6 undefined on input line 317.
-
-[6 <./images/rings.pdf>] [7 <./images/brunnian_4a.png (PNG copy)> <./images/brunnian_4b.png (PNG copy)> <./images/brunnian_4c.png (PNG copy)>] [8] [9]
-<images/2_original.pdf, id=310, 528.71452pt x 451.89221pt>
+ [6 <./images/rings.pdf>] [7 <./images/brunnian_4a.png (PNG copy)> <./images/brunnian_4b.png (PNG copy)> <./images/brunnian_4c.png (PNG copy)>] [8] [9]
+<images/2_original.pdf, id=359, 528.71452pt x 451.89221pt>
 File: images/2_original.pdf Graphic file (type pdf)
 <use images/2_original.pdf>
 Package pdftex.def Info: images/2_original.pdf  used on input line 353.
 (pdftex.def)             Requested size: 171.99922pt x 147.00803pt.
-<images/2_indicate.pdf, id=311, 528.71452pt x 451.89221pt>
+<images/2_indicate.pdf, id=360, 528.71452pt x 451.89221pt>
 File: images/2_indicate.pdf Graphic file (type pdf)
 <use images/2_indicate.pdf>
 Package pdftex.def Info: images/2_indicate.pdf  used on input line 359.
 (pdftex.def)             Requested size: 171.99922pt x 147.00803pt.
-<images/2_transformed.pdf, id=312, 523.80177pt x 451.89221pt>
+<images/2_transformed.pdf, id=361, 523.80177pt x 451.89221pt>
 File: images/2_transformed.pdf Graphic file (type pdf)
 <use images/2_transformed.pdf>
 Package pdftex.def Info: images/2_transformed.pdf  used on input line 366.
 (pdftex.def)             Requested size: 171.99922pt x 148.38708pt.
-<images/2_transformed_indicative.pdf, id=313, 523.80177pt x 451.89221pt>
+<images/2_transformed_indicative.pdf, id=362, 523.80177pt x 451.89221pt>
 File: images/2_transformed_indicative.pdf Graphic file (type pdf)
 <use images/2_transformed_indicative.pdf>
 Package pdftex.def Info: images/2_transformed_indicative.pdf  used on input line 372.
 (pdftex.def)             Requested size: 171.99922pt x 148.38708pt.
-<images/3_hangings.pdf, id=314, 952.36656pt x 694.40839pt>
+<images/3_hangings.pdf, id=363, 952.36656pt x 694.40839pt>
 File: images/3_hangings.pdf Graphic file (type pdf)
 <use images/3_hangings.pdf>
 Package pdftex.def Info: images/3_hangings.pdf  used on input line 385.
 (pdftex.def)             Requested size: 171.99922pt x 125.41194pt.
-<images/3_transformed.pdf, id=315, 952.36693pt x 694.40802pt>
+<images/3_transformed.pdf, id=364, 952.36693pt x 694.40802pt>
 File: images/3_transformed.pdf Graphic file (type pdf)
 <use images/3_transformed.pdf>
 Package pdftex.def Info: images/3_transformed.pdf  used on input line 391.
 (pdftex.def)             Requested size: 171.99922pt x 125.41188pt.
-<images/n_original.pdf, id=316, 1452.36414pt x 755.33853pt>
+<images/n_original.pdf, id=365, 1452.36414pt x 755.33853pt>
 File: images/n_original.pdf Graphic file (type pdf)
 <use images/n_original.pdf>
 Package pdftex.def Info: images/n_original.pdf  used on input line 402.
 (pdftex.def)             Requested size: 258.00539pt x 134.18013pt.
-<images/n_transformed.pdf, id=317, 1447.60269pt x 755.33853pt>
+<images/n_transformed.pdf, id=366, 1447.60269pt x 755.33853pt>
 File: images/n_transformed.pdf Graphic file (type pdf)
 <use images/n_transformed.pdf>
 Package pdftex.def Info: images/n_transformed.pdf  used on input line 408.
@@ -966,11 +884,7 @@ pdfTeX warning: pdflatex.exe (file ./images/n_original.pdf): PDF inclusion: mult
 > <./images/n_transformed.pdf
 
 pdfTeX warning: pdflatex.exe (file ./images/n_transformed.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [13]
-
-LaTeX Warning: Empty bibliography on input line 435.
-
-(c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
+>] [13] [1] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 456.
@@ -981,40 +895,90 @@ File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
-) [1{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./conway calculation/braids.py [1]) [2] [1]
-<images/2 original_braid.png, id=458, 338.9463pt x 339.669pt>
+) [1{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./conway calculation/braids.py [1]) [2] [1] [2]
+<images/2 original_braid.png, id=588, 338.9463pt x 339.669pt>
 File: images/2 original_braid.png Graphic file (type png)
 <use images/2 original_braid.png>
-Package pdftex.def Info: images/2 original_braid.png  used on input line 484.
-(pdftex.def)             Requested size: 171.99922pt x 172.36853pt.
-<images/2 original_link.png, id=459, 338.9463pt x 339.669pt>
+Package pdftex.def Info: images/2 original_braid.png  used on input line 542.
+(pdftex.def)             Requested size: 141.96341pt x 142.26378pt.
+<images/2 original_link.png, id=589, 338.9463pt x 339.669pt>
 File: images/2 original_link.png Graphic file (type png)
 <use images/2 original_link.png>
-Package pdftex.def Info: images/2 original_link.png  used on input line 490.
-(pdftex.def)             Requested size: 171.99922pt x 172.36853pt.
-<images/2 transformed_braid.png, id=460, 95.3964pt x 339.669pt>
+Package pdftex.def Info: images/2 original_link.png  used on input line 548.
+(pdftex.def)             Requested size: 141.96341pt x 142.26378pt.
+<images/2 transformed_braid.png, id=590, 95.3964pt x 339.669pt>
 File: images/2 transformed_braid.png Graphic file (type png)
 <use images/2 transformed_braid.png>
-Package pdftex.def Info: images/2 transformed_braid.png  used on input line 501.
-(pdftex.def)             Requested size: 171.99922pt x 612.45586pt.
-<images/2 transformed_link.png, id=461, 338.9463pt x 339.669pt>
+Package pdftex.def Info: images/2 transformed_braid.png  used on input line 559.
+(pdftex.def)             Requested size: 39.95557pt x 142.26378pt.
+<images/2 transformed_link.png, id=591, 338.9463pt x 339.669pt>
 File: images/2 transformed_link.png Graphic file (type png)
 <use images/2 transformed_link.png>
-Package pdftex.def Info: images/2 transformed_link.png  used on input line 507.
-(pdftex.def)             Requested size: 171.99922pt x 172.36853pt.
+Package pdftex.def Info: images/2 transformed_link.png  used on input line 565.
+(pdftex.def)             Requested size: 141.96341pt x 142.26378pt.
+<images/3 original_braid.png, id=592, 455.301pt x 307.8702pt>
+File: images/3 original_braid.png Graphic file (type png)
+<use images/3 original_braid.png>
+Package pdftex.def Info: images/3 original_braid.png  used on input line 576.
+(pdftex.def)             Requested size: 210.39278pt x 142.26378pt.
 
+Overfull \hbox (38.39355pt too wide) in paragraph at lines 576--577
+ [][] 
+ []
 
-LaTeX Warning: Float too large for page by 100.07927pt on input line 512.
-
+<images/3 original_link.png, id=593, 338.9463pt x 339.669pt>
+File: images/3 original_link.png Graphic file (type png)
+<use images/3 original_link.png>
+Package pdftex.def Info: images/3 original_link.png  used on input line 582.
+(pdftex.def)             Requested size: 141.96341pt x 142.26378pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<images/3 transformed_braid.png, id=594, 135.8676pt x 339.669pt>
+File: images/3 transformed_braid.png Graphic file (type png)
+<use images/3 transformed_braid.png>
+Package pdftex.def Info: images/3 transformed_braid.png  used on input line 593.
+(pdftex.def)             Requested size: 56.90643pt x 142.26378pt.
+<images/3 transformed_link.png, id=595, 338.9463pt x 339.669pt>
+File: images/3 transformed_link.png Graphic file (type png)
+<use images/3 transformed_link.png>
+Package pdftex.def Info: images/3 transformed_link.png  used on input line 599.
+(pdftex.def)             Requested size: 141.96341pt x 142.26378pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.D-1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.514 \end{document}
-                     [1 <./images/2 original_braid.png> <./images/2 original_link.png>] [2 <./images/2 transformed_braid.png> <./images/2 transformed_link.png>] (./main.aux)
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/4 original_braid.png, id=596, 455.301pt x 234.1548pt>
+File: images/4 original_braid.png Graphic file (type png)
+<use images/4 original_braid.png>
+Package pdftex.def Info: images/4 original_braid.png  used on input line 610.
+(pdftex.def)             Requested size: 276.63551pt x 142.26378pt.
+
+Overfull \hbox (104.63629pt too wide) in paragraph at lines 610--611
+ [][] 
+ []
+
+<images/4 original_link.png, id=597, 338.9463pt x 339.669pt>
+File: images/4 original_link.png Graphic file (type png)
+<use images/4 original_link.png>
+Package pdftex.def Info: images/4 original_link.png  used on input line 616.
+(pdftex.def)             Requested size: 141.96341pt x 142.26378pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/4 transformed_braid.png, id=598, 176.3388pt x 339.669pt>
+File: images/4 transformed_braid.png Graphic file (type png)
+<use images/4 transformed_braid.png>
+Package pdftex.def Info: images/4 transformed_braid.png  used on input line 627.
+(pdftex.def)             Requested size: 73.85728pt x 142.26378pt.
+<images/4 transformed_link.png, id=599, 338.9463pt x 339.669pt>
+File: images/4 transformed_link.png Graphic file (type png)
+<use images/4 transformed_link.png>
+Package pdftex.def Info: images/4 transformed_link.png  used on input line 633.
+(pdftex.def)             Requested size: 141.96341pt x 142.26378pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1 <./images/2 original_braid.png> <./images/2 original_link.png> <./images/2 transformed_braid.png> <./images/2 transformed_link.png>] [2 <./images/3 original_braid.png> <./images/3 original_link.png> <./images/3 transformed_braid.png> <./images/3 transformed_link.png>] [3 <./images/4 original_braid.png> <./images/4 original_link.png> <./images/4 transformed_braid.png> <./images/4 transformed_link.png>] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1024,33 +988,25 @@ L3 programming layer <2026-01-19>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B1DADC58F25C9037068127856D61F958;6009.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22086 strings out of 467525
- 378254 string characters out of 5423209
- 1596974 words of memory out of 5000000
- 50625 multiletter control sequences out of 15000+600000
- 639624 words of font info for 85 fonts, out of 8000000 for 9000
+ 22316 strings out of 467525
+ 384163 string characters out of 5423209
+ 1598235 words of memory out of 5000000
+ 50775 multiletter control sequences out of 15000+600000
+ 640094 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,12n,77p,761b,2029s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (27 pages, 1949079 bytes).
+ 67i,13n,77p,761b,2029s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (30 pages, 2066459 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 471 compressed objects within 5 object streams
- 139 named destinations out of 1000 (max. 500000)
- 378 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 738 PDF objects out of 1000 (max. 8388607)
+ 616 compressed objects within 7 object streams
+ 215 named destinations out of 1000 (max. 500000)
+ 418 words of extra memory for PDF output out of 10000 (max. 10000000)
 

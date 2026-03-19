@@ -23,12 +23,12 @@
 \contentsline {section}{\numberline {6}Conclusions and Recommendations}{13}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Conclusions}{13}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Recommendations for Future Work}{13}{subsection.6.2}%
-\contentsline {section}{References}{A-1}{subsection.6.2}%
+\contentsline {section}{References}{R-1}{subsection.6.2}%
 \contentsline {section}{\numberline {A}Python Code for Conway Polynomial Computation}{A-1}{appendix.A}%
 \contentsline {section}{Appendix A - Python Code for Conway Polynomial Computation}{A-1}{appendix.A}%
 \contentsline {section}{\numberline {B}Dictionary of Braid Words}{B-1}{appendix.B}%
 \contentsline {section}{Appendix B - Dictionary of Braid Words}{B-1}{appendix.B}%
-\contentsline {section}{\numberline {C}Text output of Python Code in \autoref {appenA}}{D-1}{appendix.C}%
-\contentsline {section}{Appendix C - Text Output of Python Code in \autoref {appenA}}{D-1}{appendix.C}%
+\contentsline {section}{\numberline {C}Text output of Python Code in \autoref {appenA}}{C-1}{appendix.C}%
+\contentsline {section}{Appendix C - Text Output of Python Code in \autoref {appenA}}{C-1}{appendix.C}%
 \contentsline {section}{\numberline {D}Figures from Python Code in \autoref {appenA}}{D-1}{appendix.D}%
 \contentsline {section}{Appendix D - Figures from Python Code in \autoref {appenA}}{D-1}{appendix.D}%

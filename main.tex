@@ -467,8 +467,66 @@ In the attempt to solve an open problem, we will put forward various approaches 
 \section{Text output of Python Code in \autoref{appenA}}
 \pagenumbering{arabic}
 \markboth{Appendix C - Text output of Python Code in \autoref{appenA}}{} 
-\renewcommand{\thepage}{D-\arabic{page}}
+\renewcommand{\thepage}{C-\arabic{page}}
 \addcontentsline{toc}{section}{Appendix C - Text Output of Python Code in \autoref{appenA}}
+\begin{lstlisting}
+  2 original :
+  Number of strands: 3
+  Number of components 2
+  Conway polynomial: t
+  2 transformed :
+  Number of strands: 3
+  Number of components 3
+  Conway polynomial: t^4
+  3 original :
+  Number of strands: 4
+  Number of components 2
+  Conway polynomial: t
+  3 transformed :
+  Number of strands: 4
+  Number of components 3
+  Conway polynomial: t^4
+  4 original :
+  Number of strands: 5
+  Number of components 2
+  Conway polynomial: t
+  4 transformed :
+  Number of strands: 5
+  Number of components 3
+  Conway polynomial: t^4
+  5 original :
+  Number of strands: 6
+  Number of components 2
+  Conway polynomial: t
+  5 transformed :
+  Number of strands: 6
+  Number of components 3
+  Conway polynomial: t^4
+  6 original :
+  Number of strands: 7
+  Number of components 2
+  Conway polynomial: t
+  6 transformed :
+  Number of strands: 7
+  Number of components 3
+  Conway polynomial: t^4
+  7 original :
+  Number of strands: 8
+  Number of components 2
+  Conway polynomial: t
+  7 transformed :
+  Number of strands: 8
+  Number of components 3
+  Conway polynomial: t^4
+  8 original :
+  Number of strands: 9
+  Number of components 2
+  Conway polynomial: t
+  8 transformed :
+  Number of strands: 9
+  Number of components 3
+  Conway polynomial: t^4 
+\end{lstlisting}
 
 \pagebreak
 \section{Figures from Python Code in \autoref{appenA}}
@@ -481,13 +539,13 @@ In the attempt to solve an open problem, we will put forward various approaches 
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{2 original_braid}
+        \includegraphics[height=5cm, keepaspectratio]{2 original_braid}
         \caption{Braid Diagram for $n=2$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{2 original_link.png}
+        \includegraphics[height=5cm, keepaspectratio]{2 original_link.png}
         \caption{Link Diagram for $n=2$}
     \end{subfigure}
     \caption{Braid and Link Diagram for original two-nail puzzle ($n=2$).}
@@ -498,17 +556,85 @@ In the attempt to solve an open problem, we will put forward various approaches 
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{2 transformed_braid.png}
+        \includegraphics[height=5cm, keepaspectratio]{2 transformed_braid.png}
         \caption{Braid Diagram for $n=2$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{2 transformed_link.png}
+        \includegraphics[height=5cm, keepaspectratio]{2 transformed_link.png}
         \caption{Link Diagram for $n=2$}
     \end{subfigure}
     \caption{Braid and Link Diagram for transformed two-nail puzzle ($n=2$).}
     \appfigcaption{Braid and Link Diagram for transformed two-nail puzzle ($n=2$).}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{3 original_braid}
+        \caption{Braid Diagram for $n=3$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{3 original_link.png}
+        \caption{Link Diagram for $n=3$}
+    \end{subfigure}
+    \caption{Braid and Link Diagram for original three-nail puzzle ($n=3$).}
+    \appfigcaption{Braid and Link Diagram for original three-nail puzzle ($n=3$).}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{3 transformed_braid.png}
+        \caption{Braid Diagram for $n=3$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{3 transformed_link.png}
+        \caption{Link Diagram for $n=3$}
+    \end{subfigure}
+    \caption{Braid and Link Diagram for transformed three-nail puzzle ($n=3$).}
+    \appfigcaption{Braid and Link Diagram for transformed three-nail puzzle ($n=3$).}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{4 original_braid}
+        \caption{Braid Diagram for $n=4$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{4 original_link.png}
+        \caption{Link Diagram for $n=4$}
+    \end{subfigure}
+    \caption{Braid and Link Diagram for original four-nail puzzle ($n=4$).}
+    \appfigcaption{Braid and Link Diagram for original four-nail puzzle ($n=4$).}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{4 transformed_braid.png}
+        \caption{Braid Diagram for $n=4$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{4 transformed_link.png}
+        \caption{Link Diagram for $n=4$}
+    \end{subfigure}
+    \caption{Braid and Link Diagram for transformed four-nail puzzle ($n=4$).}
+    \appfigcaption{Braid and Link Diagram for transformed four-nail puzzle ($n=4$).}
 \end{figure}
 
 \end{document}
