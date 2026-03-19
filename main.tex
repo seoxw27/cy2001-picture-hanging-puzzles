@@ -2,7 +2,7 @@
 
 \usepackage{graphicx} % Required for inserting images
 \graphicspath{{images/}} %Direct to "images" folder
-\usepackage{conveniences, geometry, ragged2e, amssymb, titlesec, fancyhdr, xcolor, etoolbox, float, subcaption}
+\usepackage{conveniences, geometry, ragged2e, amssymb, titlesec, fancyhdr, xcolor, etoolbox, float, subcaption, listings}
 \usepackage[titles]{tocloft}  % Allows customization of ToC layout
 \usepackage[nottoc]{tocbibind}
 \usepackage[justification=centering]{caption}
@@ -13,6 +13,30 @@
 \addbibresource{references.bib}
 
 \usepackage[hidelinks]{hyperref}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+
+\lstdefinestyle{mystyle}{
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    %basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
 
 \titleformat{\section}
     {\centering\fontS{18}\bfseries} %Centered, Font 18, Bold
@@ -98,10 +122,17 @@ Thank you to my mother for birthing me and for cutting fruit for me to snack on.
 \markboth{List of Tables}{} 
 \addcontentsline{toc}{section}{List of Tables}
 
+\newlistof{appfig}{apf}{List of Appendix Figures}
+\newcommand{\appfigcaption}[1]{%
+  \refstepcounter{appfig}%
+  \addcontentsline{apf}{appfig}{\protect\numberline{\theappfig}#1}%
+}
+
 \pagebreak
-\section*{List of Appendix Figures}
+%\section*{List of Appendix Figures}
 \markboth{List of Appendix Figures}{} 
 \addcontentsline{toc}{section}{List of Appendix Figures}
+\listofappfig
 
 % \pagebreak
 % \section*{Nomenclature}
@@ -407,17 +438,77 @@ In the attempt to solve an open problem, we will put forward various approaches 
 \addcontentsline{toc}{section}{References}
 
 \pagebreak
-\section*{Appendix A - Heading}
+\appendix
+
+\titleformat{\section}
+  {\centering\fontS{18}\bfseries} % formatting
+  {Appendix \thesection \space -}        % label (Appendix A -)
+  {0.5em}                         % spacing between label and title
+  {}
+  [\vspace{20pt}\titlerule\vspace{10pt}]
+
+\section{Python Code for Conway Polynomial Computation}
+\label{appenA}
 \pagenumbering{arabic}
-\markboth{Appendix A - Heading}{} 
+\markboth{Appendix A - Python Code for Conway Polynomial Computation}{} 
 \renewcommand{\thepage}{A-\arabic{page}}
-\addcontentsline{toc}{section}{Appendix A - Heading}
+\addcontentsline{toc}{section}{Appendix A - Python Code for Conway Polynomial Computation}
+\lstinputlisting[language=python]{conway calculation/conway.py}
 
 \pagebreak
-\section*{Appendix B - Heading}
+\section{Dictionary of Braid Words}
 \pagenumbering{arabic}
-\markboth{Appendix B - Heading}{} 
+\markboth{Appendix B - Dictionary of Braid Words}{} 
 \renewcommand{\thepage}{B-\arabic{page}}
-\addcontentsline{toc}{section}{Appendix B - Heading}
+\addcontentsline{toc}{section}{Appendix B - Dictionary of Braid Words}
+\lstinputlisting[language=python]{conway calculation/braids.py}
+
+\pagebreak
+\section{Text output of Python Code in \autoref{appenA}}
+\pagenumbering{arabic}
+\markboth{Appendix C - Text output of Python Code in \autoref{appenA}}{} 
+\renewcommand{\thepage}{D-\arabic{page}}
+\addcontentsline{toc}{section}{Appendix C - Text Output of Python Code in \autoref{appenA}}
+
+\pagebreak
+\section{Figures from Python Code in \autoref{appenA}}
+\pagenumbering{arabic}
+\markboth{Appendix D - Figures from Python Code in \autoref{appenA}}{} 
+\renewcommand{\thepage}{D-\arabic{page}}
+\addcontentsline{toc}{section}{Appendix D - Figures from Python Code in \autoref{appenA}}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{2 original_braid}
+        \caption{Braid Diagram for $n=2$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{2 original_link.png}
+        \caption{Link Diagram for $n=2$}
+    \end{subfigure}
+    \caption{Braid and Link Diagram for original two-nail puzzle ($n=2$).}
+    \appfigcaption{Braid and Link Diagram for original two-nail puzzle ($n=2$).}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{2 transformed_braid.png}
+        \caption{Braid Diagram for $n=2$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{2 transformed_link.png}
+        \caption{Link Diagram for $n=2$}
+    \end{subfigure}
+    \caption{Braid and Link Diagram for transformed two-nail puzzle ($n=2$).}
+    \appfigcaption{Braid and Link Diagram for transformed two-nail puzzle ($n=2$).}
+\end{figure}
 
 \end{document}
