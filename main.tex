@@ -347,7 +347,6 @@ In the attempt to solve an open problem, we will put forward various approaches 
 
 \begin{figure}
     \centering
-
     \begin{subfigure}{0.4\textwidth}
         \centering
         \includegraphics[width=\linewidth]{2_original}
@@ -360,18 +359,18 @@ In the attempt to solve an open problem, we will put forward various approaches 
         \caption{Original Construction for $n=2$. 
         Rope section to be moved is in yellow.}
     \end{subfigure}
-
-    \begin{subfigure}{0.4\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{2_transformed}
-        \caption{Transformed Construction for $n=2$.}
-    \end{subfigure}
-    \hfill
+    
     \begin{subfigure}{0.4\textwidth}
         \centering
         \includegraphics[width=\linewidth]{2_transformed_indicative}
         \caption{Transformed Construction for $n=2$.
         Moved section in yellow.}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{2_transformed}
+        \caption{Transformed Construction for $n=2$.}
     \end{subfigure}
 
     \caption{Original and Transformed Constructions for the two-nail puzzle ($n=2$).}
@@ -439,6 +438,7 @@ In the attempt to solve an open problem, we will put forward various approaches 
 
 \pagebreak
 \appendix
+\captionsetup[figure]{list=no}
 
 \titleformat{\section}
   {\centering\fontS{18}\bfseries} % formatting
@@ -447,7 +447,7 @@ In the attempt to solve an open problem, we will put forward various approaches 
   {}
   [\vspace{20pt}\titlerule\vspace{10pt}]
 
-\section{Python Code for Conway Polynomial Computation}
+\section*{Appendix A - Python Code for Conway Polynomial Computation}
 \label{appenA}
 \pagenumbering{arabic}
 \markboth{Appendix A - Python Code for Conway Polynomial Computation}{} 
@@ -456,7 +456,7 @@ In the attempt to solve an open problem, we will put forward various approaches 
 \lstinputlisting[language=python]{conway calculation/conway.py}
 
 \pagebreak
-\section{Dictionary of Braid Words}
+\section*{Appendix B - Dictionary of Braid Words}
 \pagenumbering{arabic}
 \markboth{Appendix B - Dictionary of Braid Words}{} 
 \renewcommand{\thepage}{B-\arabic{page}}
@@ -464,11 +464,11 @@ In the attempt to solve an open problem, we will put forward various approaches 
 \lstinputlisting[language=python]{conway calculation/braids.py}
 
 \pagebreak
-\section{Text output of Python Code in \autoref{appenA}}
+\section*{Appendix C - Text output of Python Code in \hyperref[appenA]{Appendix A}}
 \pagenumbering{arabic}
-\markboth{Appendix C - Text output of Python Code in \autoref{appenA}}{} 
+\markboth{Appendix C - Text output of Python Code in \hyperref[appenA]{Appendix A}}{} 
 \renewcommand{\thepage}{C-\arabic{page}}
-\addcontentsline{toc}{section}{Appendix C - Text Output of Python Code in \autoref{appenA}}
+\addcontentsline{toc}{section}{Appendix C - Text output of Python Code in \hyperref[appenA]{Appendix A}}
 \begin{lstlisting}
   2 original :
   Number of strands: 3
@@ -510,42 +510,26 @@ In the attempt to solve an open problem, we will put forward various approaches 
   Number of strands: 7
   Number of components 3
   Conway polynomial: t^4
-  7 original :
-  Number of strands: 8
-  Number of components 2
-  Conway polynomial: t
-  7 transformed :
-  Number of strands: 8
-  Number of components 3
-  Conway polynomial: t^4
-  8 original :
-  Number of strands: 9
-  Number of components 2
-  Conway polynomial: t
-  8 transformed :
-  Number of strands: 9
-  Number of components 3
-  Conway polynomial: t^4 
 \end{lstlisting}
 
 \pagebreak
-\section{Figures from Python Code in \autoref{appenA}}
+\section*{Appendix D - Figures from Python Code in \hyperref[appenA]{Appendix A}}
 \pagenumbering{arabic}
-\markboth{Appendix D - Figures from Python Code in \autoref{appenA}}{} 
+\markboth{Appendix D - Figures from Python Code in \hyperref[appenA]{Appendix A}}{}
 \renewcommand{\thepage}{D-\arabic{page}}
-\addcontentsline{toc}{section}{Appendix D - Figures from Python Code in \autoref{appenA}}
+\addcontentsline{toc}{section}{Appendix D - Figures from Python Code in \hyperref[appenA]{Appendix A}}
 
 \begin{figure}[h]
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{2 original_braid}
+        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{2 original_braid}
         \caption{Braid Diagram for $n=2$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{2 original_link.png}
+        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{2 original_link.png}
         \caption{Link Diagram for $n=2$}
     \end{subfigure}
     \caption{Braid and Link Diagram for original two-nail puzzle ($n=2$).}
@@ -556,13 +540,13 @@ In the attempt to solve an open problem, we will put forward various approaches 
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{2 transformed_braid.png}
+        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{2 transformed_braid.png}
         \caption{Braid Diagram for $n=2$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{2 transformed_link.png}
+        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{2 transformed_link.png}
         \caption{Link Diagram for $n=2$}
     \end{subfigure}
     \caption{Braid and Link Diagram for transformed two-nail puzzle ($n=2$).}
@@ -573,13 +557,13 @@ In the attempt to solve an open problem, we will put forward various approaches 
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{3 original_braid}
+        \includegraphics[width=\linewidth]{3 original_braid}
         \caption{Braid Diagram for $n=3$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{3 original_link.png}
+        \includegraphics[width=\linewidth, height=6cm, keepaspectratio]{3 original_link.png}
         \caption{Link Diagram for $n=3$}
     \end{subfigure}
     \caption{Braid and Link Diagram for original three-nail puzzle ($n=3$).}
@@ -590,13 +574,13 @@ In the attempt to solve an open problem, we will put forward various approaches 
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{3 transformed_braid.png}
+        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{3 transformed_braid.png}
         \caption{Braid Diagram for $n=3$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{3 transformed_link.png}
+        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{3 transformed_link.png}
         \caption{Link Diagram for $n=3$}
     \end{subfigure}
     \caption{Braid and Link Diagram for transformed three-nail puzzle ($n=3$).}
@@ -607,10 +591,9 @@ In the attempt to solve an open problem, we will put forward various approaches 
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{4 original_braid}
+        \includegraphics[width=\linewidth]{4 original_braid}
         \caption{Braid Diagram for $n=4$}
     \end{subfigure}
-    \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
         \includegraphics[height=5cm, keepaspectratio]{4 original_link.png}
@@ -635,6 +618,72 @@ In the attempt to solve an open problem, we will put forward various approaches 
     \end{subfigure}
     \caption{Braid and Link Diagram for transformed four-nail puzzle ($n=4$).}
     \appfigcaption{Braid and Link Diagram for transformed four-nail puzzle ($n=4$).}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        %\centering
+        \includegraphics[width=\linewidth]{5 original_braid}
+        \caption{Braid Diagram for $n=5$}
+    \end{subfigure}
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{5 original_link.png}
+        \caption{Link Diagram for $n=5$}
+    \end{subfigure}
+    \caption{Braid and Link Diagram for original five-nail puzzle ($n=5$).}
+    \appfigcaption{Braid and Link Diagram for original five-nail puzzle ($n=5$).}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{5 transformed_braid.png}
+        \caption{Braid Diagram for $n=5$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{5 transformed_link.png}
+        \caption{Link Diagram for $n=5$}
+    \end{subfigure}
+    \caption{Braid and Link Diagram for transformed five-nail puzzle ($n=5$).}
+    \appfigcaption{Braid and Link Diagram for transformed five-nail puzzle ($n=5$).}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        %\centering
+        \includegraphics[width=\linewidth]{6 original_braid}
+        \caption{Braid Diagram for $n=6$}
+    \end{subfigure}
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{6 original_link.png}
+        \caption{Link Diagram for $n=6$}
+    \end{subfigure}
+    \caption{Braid and Link Diagram for original six-nail puzzle ($n=6$).}
+    \appfigcaption{Braid and Link Diagram for original six-nail puzzle ($n=6$).}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{6 transformed_braid.png}
+        \caption{Braid Diagram for $n=6$}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=5cm, keepaspectratio]{6 transformed_link.png}
+        \caption{Link Diagram for $n=6$}
+    \end{subfigure}
+    \caption{Braid and Link Diagram for transformed six-nail puzzle ($n=6$).}
+    \appfigcaption{Braid and Link Diagram for transformed six-nail puzzle ($n=6$).}
 \end{figure}
 
 \end{document}
