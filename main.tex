@@ -469,6 +469,31 @@ We will discuss our findings in the next chapter.
 \pagebreak
 \section{Results}\label{chapter 5}
 
+\begin{center}
+    \begin{tikzpicture}
+        \pic[
+            rotate=90,
+            braid/.cd,
+            every strand/.style={ultra thick},
+            strand 1/.style={red},
+            strand 2/.style={green},
+            strand 3/.style={blue},
+        ] {braid={s_1 s_1 s_1^{-1} s_1^{-1} s_2 s_2^{-1}}};
+    \end{tikzpicture}
+\end{center}
+
+\begin{center}
+    \begin{tikzpicture}
+        \pic[
+            rotate=90,
+            braid/.cd,
+            every strand/.style={ultra thick},
+            strand 1/.style={red},
+            strand 2/.style={green},
+            strand 3/.style={blue},
+        ] {braid={s_1 s_1 s_2^{-1} s_2^{-1} s_1^{-1} s_1^{-1} s_2 s_2}};
+    \end{tikzpicture}
+\end{center}
 
 \subsection{Proposition 1:} % initial construction for n>=2
 % x_1, \dots x_(n-1) are trivially linked. 
@@ -586,7 +611,7 @@ We will discuss our findings in the next chapter.
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{2 original_link.png}
+        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{2 original_link.pdf}
         \caption{Link Diagram for $n=2$}
     \end{subfigure}
     \caption{Braid and Link Diagram for original two-nail puzzle ($n=2$).}
@@ -597,13 +622,13 @@ We will discuss our findings in the next chapter.
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{2 transformed_braid.png}
+        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{2 transformed_braid.pdf}
         \caption{Braid Diagram for $n=2$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{2 transformed_link.png}
+        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{2 transformed_link.pdf}
         \caption{Link Diagram for $n=2$}
     \end{subfigure}
     \caption{Braid and Link Diagram for transformed two-nail puzzle ($n=2$).}
@@ -620,7 +645,7 @@ We will discuss our findings in the next chapter.
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[width=\linewidth, height=6cm, keepaspectratio]{3 original_link.png}
+        \includegraphics[width=\linewidth, height=6cm, keepaspectratio]{3 original_link.pdf}
         \caption{Link Diagram for $n=3$}
     \end{subfigure}
     \caption{Braid and Link Diagram for original three-nail puzzle ($n=3$).}
@@ -631,13 +656,13 @@ We will discuss our findings in the next chapter.
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{3 transformed_braid.png}
+        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{3 transformed_braid.pdf}
         \caption{Braid Diagram for $n=3$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{3 transformed_link.png}
+        \includegraphics[width= \linewidth, height=6cm, keepaspectratio]{3 transformed_link.pdf}
         \caption{Link Diagram for $n=3$}
     \end{subfigure}
     \caption{Braid and Link Diagram for transformed three-nail puzzle ($n=3$).}
@@ -653,7 +678,7 @@ We will discuss our findings in the next chapter.
     \end{subfigure}
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{4 original_link.png}
+        \includegraphics[height=5cm, keepaspectratio]{4 original_link.pdf}
         \caption{Link Diagram for $n=4$}
     \end{subfigure}
     \caption{Braid and Link Diagram for original four-nail puzzle ($n=4$).}
@@ -664,13 +689,13 @@ We will discuss our findings in the next chapter.
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{4 transformed_braid.png}
+        \includegraphics[height=5cm, keepaspectratio]{4 transformed_braid.pdf}
         \caption{Braid Diagram for $n=4$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{4 transformed_link.png}
+        \includegraphics[height=5cm, keepaspectratio]{4 transformed_link.pdf}
         \caption{Link Diagram for $n=4$}
     \end{subfigure}
     \caption{Braid and Link Diagram for transformed four-nail puzzle ($n=4$).}
@@ -686,7 +711,7 @@ We will discuss our findings in the next chapter.
     \end{subfigure}
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{5 original_link.png}
+        \includegraphics[height=5cm, keepaspectratio]{5 original_link.pdf}
         \caption{Link Diagram for $n=5$}
     \end{subfigure}
     \caption{Braid and Link Diagram for original five-nail puzzle ($n=5$).}
@@ -697,13 +722,13 @@ We will discuss our findings in the next chapter.
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{5 transformed_braid.png}
+        \includegraphics[height=5cm, keepaspectratio]{5 transformed_braid.pdf}
         \caption{Braid Diagram for $n=5$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{5 transformed_link.png}
+        \includegraphics[height=5cm, keepaspectratio]{5 transformed_link.pdf}
         \caption{Link Diagram for $n=5$}
     \end{subfigure}
     \caption{Braid and Link Diagram for transformed five-nail puzzle ($n=5$).}
@@ -719,7 +744,7 @@ We will discuss our findings in the next chapter.
     \end{subfigure}
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{6 original_link.png}
+        \includegraphics[height=5cm, keepaspectratio]{6 original_link.pdf}
         \caption{Link Diagram for $n=6$}
     \end{subfigure}
     \caption{Braid and Link Diagram for original six-nail puzzle ($n=6$).}
@@ -730,13 +755,13 @@ We will discuss our findings in the next chapter.
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{6 transformed_braid.png}
+        \includegraphics[height=5cm, keepaspectratio]{6 transformed_braid.pdf}
         \caption{Braid Diagram for $n=6$}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=5cm, keepaspectratio]{6 transformed_link.png}
+        \includegraphics[height=5cm, keepaspectratio]{6 transformed_link.pdf}
         \caption{Link Diagram for $n=6$}
     \end{subfigure}
     \caption{Braid and Link Diagram for transformed six-nail puzzle ($n=6$).}

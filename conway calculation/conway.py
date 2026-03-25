@@ -10,10 +10,10 @@ for name, word in braids.items():
     B = BraidGroup(k)
     b = B(word)
     print("Number of strands:" ,b.components_in_closure())
-    B(word).plot(orientation = "top-bottom").save(f"{name}_braid.png")
+    B(word).plot(orientation = "top-bottom").save(f"{name}_braid.pdf")
 
     L = Link(b)
     print("Number of components",L.number_of_components())
-    L.plot().save(f"{name}_link.png")
+    L.plot().save(f"{name}_link.pdf")
 
     print("Conway polynomial:", L.conway_polynomial())
