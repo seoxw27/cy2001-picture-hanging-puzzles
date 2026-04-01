@@ -1,7 +1,6 @@
 from sage.all import *
 from sage.plot import *
 from braids import braids
-from gauss import links
 
 for name, word in braids.items():
     print(name, ":")
@@ -18,22 +17,3 @@ for name, word in braids.items():
     L.plot().save(f"{name}_link.pdf")
 
     print("Conway polynomial:", L.conway_polynomial())
-
-"""
-for name, data in links.items():
-    print(name, ":")
-    # counts number of strands, based on word
-    
-    L = Link(gauss_code(data))
-    print("Number of components",L.number_of_components())
-    L.plot().save(f"{name}_link.pdf")
-
-    print("Conway polynomial:", L.conway_polynomial())
-"""
-
-for name, comp in links.items():
-    n = max(abs(x) for c in comp for x in c)
-    signs = [1]*n   # placeholder
-
-    L = Link([comp, signs])
-    print(name, L.conway_polynomial())
