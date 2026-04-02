@@ -1,29 +1,10 @@
 from sage.all import *
 from sage.plot import *
+from glinks import links
 import sys
 import time
 
-sys.setrecursionlimit(2000)
-
-links = {
-    "2 original": [[[-1, 2, -3, -6, 7, 8, 9, -10, -8, 3, -4, 5, 6, -7],
-                    [1, 10, -9, -2],
-                    [4, -5]],
-                   [1, 1, -1, 1, -1, 1, 1, -1, -1, -1]],
-    "2 transformed": [[[-1, 2, 3, -9, -6, 5, -4, -3, 10, -11, 9, -8, 7, 6],
-                       [1, 11, -10, -2],
-                       [4, 8, -7, -5]],
-                      [1, 1, -1, -1, -1, 1,
-                       1, 1, -1, -1, -1]],
-    "2 original wo self": [[[-1, 2, 5, -6, -3, 4],
-                    [1, 6, -5, -2],
-                    [3, -4]],
-                   [1, 1, 1, -1, -1, -1]],
-    "2 transformed wo self": [[[-1, 2, 4, -3, 7, -8, -6, 5],
-                       [1, 8, -7, -2],
-                       [3, 6, -5, -4]],
-                      [1, 1, -1, -1, 1, 1, -1, -1]]
-}
+sys.setrecursionlimit(1000)
 
 total = len(links)
 start_time = time.time()
