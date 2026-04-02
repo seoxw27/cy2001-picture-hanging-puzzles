@@ -10,7 +10,6 @@ total = len(links)
 start_time = time.time()
 
 for name, data in links.items():
-    print(f"\nProcessing {i}/{total}: {name}")
 #    print(data)
 
     L = Link(data)
