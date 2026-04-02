@@ -1,16 +1,16 @@
 from sage.all import *
 from sage.plot import *
-from links import links
+from plinks import links
 import time
 import sys
 
-sys.setrecursionlimit(1000)
+sys.setrecursionlimit(2000)
 
 total = len(links)
 start_time = time.time()
 
 for name, data in links.items():
-    print(data)
+#    print(data)
 
     L = Link(data)
     print(name, L)
@@ -21,7 +21,7 @@ for name, data in links.items():
         print("Failed to compute braid:", e)
 
     try:
-        L.plot().save(f"{name}_gauss.pdf")
+        L.plot().save(f"{name}_pd.pdf")
     except Exception as e:
         print("Failed to save link:", e)
 
